@@ -17,5 +17,4 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 git clone https://github.com/lsydy1021/luci-theme-bootstrap-mod-17.01.git package/lean/luci-theme-bootstrap-mod
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns
-git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
